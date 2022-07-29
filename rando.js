@@ -1,6 +1,6 @@
 function game(player1, player2) {
-    const theMark = Math.floor(Math.random( * 100));
-    console.log (`If the ${theMark} then..`);
+    const theMark = Math.floor(Math.random() * 100);
+    console.log (`If the mark is ${theMark} then..`);
     let random1 = Math.abs(theMark - player1);
     let random2 = Math.abs(theMark - player2);
     if (random1 > random2) {
